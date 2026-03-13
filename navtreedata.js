@@ -48,8 +48,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Enumerator", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]
@@ -59,11 +58,10 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d2/ddf/classzir_1_1CondBranchInst.html#a84da0bd750ac3da0c60c81b0e692c412",
-"d4/da0/classzir_1_1BoundIRGenerator.html#a90aec8c572fe1ccc5641b0322f83515f",
-"d9/dd2/classzir_1_1Type.html#abe32a959bde0e2bc5435294cae74fbfc",
-"db/dee/classzir_1_1GetElementPtrInst.html#ae3fb0055ef3fc740ee542b076b1570fa",
-"de/d56/classAstBuilder.html#adc49af93510eb83a2e28e7e145864c97",
-"functions_func_s.html"
+"d4/da0/classzir_1_1BoundIRGenerator.html#aa9b58017010f8410929bbb583e93b7af",
+"d9/dd2/classzir_1_1Type.html#a0df5d6f9acac147ffcb2906eab0918b0",
+"dc/d2c/classsema_1_1Binder.html#a04a3d0fe75b08d4dcf2ef9773e0cd3ca",
+"de/d73/classzap_1_1Parser.html#aaea717b0e4f1121665e4e032f2d1729e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
