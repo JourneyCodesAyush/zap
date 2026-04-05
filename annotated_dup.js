@@ -1,17 +1,21 @@
 var annotated_dup =
 [
+    [ "codegen", "d0/df2/namespacecodegen.html", [
+      [ "LLVMCodeGen", "da/de9/classcodegen_1_1LLVMCodeGen.html", "da/de9/classcodegen_1_1LLVMCodeGen" ]
+    ] ],
     [ "sema", "d7/d39/namespacesema.html", [
       [ "Binder", "dc/d2c/classsema_1_1Binder.html", "dc/d2c/classsema_1_1Binder" ],
       [ "BoundVisitor", "d0/df9/classsema_1_1BoundVisitor.html", "d0/df9/classsema_1_1BoundVisitor" ],
       [ "BoundNode", "d0/db2/classsema_1_1BoundNode.html", "d0/db2/classsema_1_1BoundNode" ],
       [ "BoundExpression", "db/d06/classsema_1_1BoundExpression.html", "db/d06/classsema_1_1BoundExpression" ],
-      [ "BoundStatement", "dd/d10/classsema_1_1BoundStatement.html", null ],
+      [ "BoundStatement", "dd/d10/classsema_1_1BoundStatement.html", "dd/d10/classsema_1_1BoundStatement" ],
       [ "BoundExpressionStatement", "de/d88/classsema_1_1BoundExpressionStatement.html", "de/d88/classsema_1_1BoundExpressionStatement" ],
       [ "BoundBlock", "d1/d45/classsema_1_1BoundBlock.html", "d1/d45/classsema_1_1BoundBlock" ],
       [ "BoundLiteral", "db/d85/classsema_1_1BoundLiteral.html", "db/d85/classsema_1_1BoundLiteral" ],
       [ "BoundCast", "d2/d0f/classsema_1_1BoundCast.html", "d2/d0f/classsema_1_1BoundCast" ],
       [ "BoundVariableExpression", "dc/d46/classsema_1_1BoundVariableExpression.html", "dc/d46/classsema_1_1BoundVariableExpression" ],
       [ "BoundBinaryExpression", "df/dee/classsema_1_1BoundBinaryExpression.html", "df/dee/classsema_1_1BoundBinaryExpression" ],
+      [ "BoundTernaryExpression", "db/d94/classsema_1_1BoundTernaryExpression.html", "db/d94/classsema_1_1BoundTernaryExpression" ],
       [ "BoundUnaryExpression", "d6/d6f/classsema_1_1BoundUnaryExpression.html", "d6/d6f/classsema_1_1BoundUnaryExpression" ],
       [ "BoundFunctionCall", "df/da0/classsema_1_1BoundFunctionCall.html", "df/da0/classsema_1_1BoundFunctionCall" ],
       [ "BoundArrayLiteral", "dd/d9c/classsema_1_1BoundArrayLiteral.html", "dd/d9c/classsema_1_1BoundArrayLiteral" ],
@@ -19,7 +23,7 @@ var annotated_dup =
       [ "BoundVariableDeclaration", "d2/d5b/classsema_1_1BoundVariableDeclaration.html", "d2/d5b/classsema_1_1BoundVariableDeclaration" ],
       [ "BoundReturnStatement", "d2/d99/classsema_1_1BoundReturnStatement.html", "d2/d99/classsema_1_1BoundReturnStatement" ],
       [ "BoundAssignment", "d1/d29/classsema_1_1BoundAssignment.html", "d1/d29/classsema_1_1BoundAssignment" ],
-      [ "BoundIfExpression", "d3/dc8/classsema_1_1BoundIfExpression.html", "d3/dc8/classsema_1_1BoundIfExpression" ],
+      [ "BoundIfStatement", "d0/dec/classsema_1_1BoundIfStatement.html", "d0/dec/classsema_1_1BoundIfStatement" ],
       [ "BoundWhileStatement", "d3/d65/classsema_1_1BoundWhileStatement.html", "d3/d65/classsema_1_1BoundWhileStatement" ],
       [ "BoundBreakStatement", "d1/d54/classsema_1_1BoundBreakStatement.html", "d1/d54/classsema_1_1BoundBreakStatement" ],
       [ "BoundContinueStatement", "d3/dc3/classsema_1_1BoundContinueStatement.html", "d3/dc3/classsema_1_1BoundContinueStatement" ],
@@ -37,7 +41,21 @@ var annotated_dup =
       [ "SymbolTable", "da/d74/classsema_1_1SymbolTable.html", "da/d74/classsema_1_1SymbolTable" ]
     ] ],
     [ "zap", "d7/d1a/namespacezap.html", [
-      [ "Parser", "de/d73/classzap_1_1Parser.html", "de/d73/classzap_1_1Parser" ]
+      [ "lsp", "d5/d23/namespacezap_1_1lsp.html", [
+        [ "JsonObject", "d2/dba/classzap_1_1lsp_1_1JsonObject.html", "d2/dba/classzap_1_1lsp_1_1JsonObject" ],
+        [ "JsonParser", "d3/dfe/classzap_1_1lsp_1_1JsonParser.html", "d3/dfe/classzap_1_1lsp_1_1JsonParser" ],
+        [ "JsonRPC", "d3/d6a/classzap_1_1lsp_1_1JsonRPC.html", "d3/d6a/classzap_1_1lsp_1_1JsonRPC" ],
+        [ "Server", "d9/d0d/classzap_1_1lsp_1_1Server.html", "d9/d0d/classzap_1_1lsp_1_1Server" ]
+      ] ],
+      [ "driver", "d9/d00/classzap_1_1driver.html", "d9/d00/classzap_1_1driver" ],
+      [ "_version_base", "d3/dfd/classzap_1_1__version__base.html", "d3/dfd/classzap_1_1__version__base" ],
+      [ "Parser", "de/d73/classzap_1_1Parser.html", "de/d73/classzap_1_1Parser" ],
+      [ "DiagnosticEngine", "d3/d28/classzap_1_1DiagnosticEngine.html", "d3/d28/classzap_1_1DiagnosticEngine" ],
+      [ "HandleColors", "d4/d3e/structzap_1_1HandleColors.html", "d4/d3e/structzap_1_1HandleColors" ],
+      [ "StdoutStream", "dc/de8/classzap_1_1StdoutStream.html", "dc/de8/classzap_1_1StdoutStream" ],
+      [ "StderrStream", "d6/da5/classzap_1_1StderrStream.html", "d6/da5/classzap_1_1StderrStream" ],
+      [ "Stream", "d3/d09/classzap_1_1Stream.html", "d3/d09/classzap_1_1Stream" ],
+      [ "SFStream", "d2/d02/classzap_1_1SFStream.html", "d2/d02/classzap_1_1SFStream" ]
     ] ],
     [ "zir", "df/d35/namespacezir.html", [
       [ "BasicBlock", "d7/d6e/classzir_1_1BasicBlock.html", "d7/d6e/classzir_1_1BasicBlock" ],
@@ -106,11 +124,14 @@ var annotated_dup =
     [ "StructDeclarationNode", "de/d35/classStructDeclarationNode.html", "de/d35/classStructDeclarationNode" ],
     [ "StructFieldInit", "d8/d96/structStructFieldInit.html", "d8/d96/structStructFieldInit" ],
     [ "StructLiteralNode", "de/d32/classStructLiteralNode.html", "de/d32/classStructLiteralNode" ],
+    [ "TernaryExpr", "d5/d02/classTernaryExpr.html", "d5/d02/classTernaryExpr" ],
     [ "Token", "d2/d6e/classToken.html", "d2/d6e/classToken" ],
     [ "TopLevel", "d8/d65/classTopLevel.html", "d8/d65/classTopLevel" ],
+    [ "TypeAliasDecl", "d2/daf/classTypeAliasDecl.html", "d2/daf/classTypeAliasDecl" ],
     [ "TypeNode", "d7/d9f/classTypeNode.html", "d7/d9f/classTypeNode" ],
     [ "UnaryExpr", "dd/d97/classUnaryExpr.html", "dd/d97/classUnaryExpr" ],
     [ "VarDecl", "d0/d3d/classVarDecl.html", "d0/d3d/classVarDecl" ],
     [ "Visitor", "dc/d13/structVisitor.html", "dc/d13/structVisitor" ],
-    [ "WhileNode", "d2/df8/classWhileNode.html", "d2/df8/classWhileNode" ]
+    [ "WhileNode", "d2/df8/classWhileNode.html", "d2/df8/classWhileNode" ],
+    [ "zap_string_t", "dd/d2a/structzap__string__t.html", "dd/d2a/structzap__string__t" ]
 ];

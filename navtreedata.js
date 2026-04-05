@@ -25,10 +25,20 @@
 var NAVTREE =
 [
   [ "ZAP", "index.html", [
+    [ "Changelog", "dd/d44/md_src_2lsp_2vscode_2zap_2CHANGELOG.html", [
+      [ "[0.0.1] - 2026-03-16", "dd/d44/md_src_2lsp_2vscode_2zap_2CHANGELOG.html#autotoc_md1", [
+        [ "Added", "dd/d44/md_src_2lsp_2vscode_2zap_2CHANGELOG.html#autotoc_md2", null ],
+        [ "Changed", "dd/d44/md_src_2lsp_2vscode_2zap_2CHANGELOG.html#autotoc_md3", null ],
+        [ "Removed", "dd/d44/md_src_2lsp_2vscode_2zap_2CHANGELOG.html#autotoc_md4", null ]
+      ] ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
@@ -39,7 +49,11 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -48,7 +62,8 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -57,12 +72,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/d9e/classsema_1_1BoundEnumDeclaration.html#ab78f4b8c72d376085de031c41095a118",
-"d4/da0/classzir_1_1BoundIRGenerator.html#a66c586afbf4b0e2e494bbde63fdfc27f",
-"d8/da4/return__node_8hpp.html",
-"db/dee/classzir_1_1GetElementPtrInst.html#a13d58a60e29ed35dc31ef8ce20f0734c",
-"de/d56/classAstBuilder.html#a2ace1747b3a98638ac1af9151043f837",
-"df/dee/classsema_1_1BoundBinaryExpression.html#a4afebdbdbeb5bb7b949bd47931996bd2"
+"d2/d0f/classsema_1_1BoundCast.html#ad9303d46b66c2aed387274db986e23ee",
+"d3/d09/classzap_1_1Stream.html#af9a9373bd62a219d4a9588c9f7e96d7a",
+"d4/d67/classzir_1_1PointerType.html#a8bdd960293f8e0d2bf3dd790254208d7",
+"d7/d9b/binder_8hpp_source.html",
+"d9/d67/ext__decl_8hpp.html",
+"da/de9/classcodegen_1_1LLVMCodeGen.html#ac422baac0ccf9876da632ad18e8e07f2",
+"dc/d2c/classsema_1_1Binder.html#acc7af7747070254879e1d5df01d0e55f",
+"de/d73/classzap_1_1Parser.html#af7c39bd6c0b177459239660fe41c9508",
+"functions_vars_h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
