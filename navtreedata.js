@@ -62,6 +62,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -73,17 +74,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d67/namespacezap_1_1lsp_1_1anonymous__namespace_02lsp_8cpp_03.html#a04bc458ddc8ad67e0eb863a28197cec5",
-"d2/ddf/classzir_1_1CondBranchInst.html#a84da0bd750ac3da0c60c81b0e692c412",
-"d3/dfd/classzap_1_1__version__base.html#a404ab0f9783ab9df396651e099e3f8e1",
-"d5/db2/instruction_8hpp_source.html",
-"d8/d6d/classzir_1_1LoadInst.html",
-"d9/ddc/classIndexAccessNode.html",
-"da/df8/structanonymous__namespace_02lsp-main_8cpp_03_1_1ProjectState.html",
-"dc/d2c/classsema_1_1Binder.html#a3e20f205ec396adff88fcef86ef32138",
-"dd/d2a/structzap__string__t.html",
-"df/d31/classzir_1_1CallInst.html#a082464cfff8703334860bed0c8462b7b",
-"functions_w.html"
+"d1/d56/classzir_1_1CmpInst.html#a78caccf64166d5aca001c06f7ecb73f5",
+"d2/dba/classzap_1_1lsp_1_1JsonObject.html#acf9c109974725c92c94959ea8acd623c",
+"d3/d94/classFunDecl.html#a83e0d910a55a3b4535942de6263e49c5",
+"d4/da0/classzir_1_1BoundIRGenerator.html#ab27ad956061dc64b46ee46bc80a1b9d5",
+"d7/db8/classBreakNode.html#a5b3edd36d192166ee81650a4891e6b68",
+"d9/d0d/classzap_1_1lsp_1_1Server.html#a59004e3bbbacf6a65ea32ff0e9bab309",
+"da/d98/classzir_1_1Value.html#afcb33b8503c6c9e1f0d07112e2d5c6e8",
+"db/d94/classsema_1_1BoundTernaryExpression.html#a71b307b8a74a79f0aca4c044494166a6",
+"dc/d2c/classsema_1_1Binder.html#a315e73c6859b03173b8e39d780b8c029",
+"dd/d05/namespaceanonymous__namespace_02lsp-main_8cpp_03.html#a40c763392c638ddb93df25c85d84d2c3",
+"de/d73/classzap_1_1Parser.html#aa1a79a877f48088cd2c3a992d156ace4",
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

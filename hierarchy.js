@@ -17,10 +17,13 @@ var hierarchy =
         [ "sema::BoundLiteral", "db/d85/classsema_1_1BoundLiteral.html", null ],
         [ "sema::BoundMemberAccess", "db/ddd/classsema_1_1BoundMemberAccess.html", null ],
         [ "sema::BoundModuleReference", "d5/d03/classsema_1_1BoundModuleReference.html", null ],
+        [ "sema::BoundNewExpression", "db/d54/classsema_1_1BoundNewExpression.html", null ],
         [ "sema::BoundStructLiteral", "d8/d4b/classsema_1_1BoundStructLiteral.html", null ],
         [ "sema::BoundTernaryExpression", "db/d94/classsema_1_1BoundTernaryExpression.html", null ],
         [ "sema::BoundUnaryExpression", "d6/d6f/classsema_1_1BoundUnaryExpression.html", null ],
-        [ "sema::BoundVariableExpression", "dc/d46/classsema_1_1BoundVariableExpression.html", null ]
+        [ "sema::BoundVariableExpression", "dc/d46/classsema_1_1BoundVariableExpression.html", null ],
+        [ "sema::BoundWeakAliveExpression", "d2/d78/classsema_1_1BoundWeakAliveExpression.html", null ],
+        [ "sema::BoundWeakLockExpression", "d8/df0/classsema_1_1BoundWeakLockExpression.html", null ]
       ] ],
       [ "sema::BoundExternalFunctionDeclaration", "d7/d1f/classsema_1_1BoundExternalFunctionDeclaration.html", null ],
       [ "sema::BoundFunctionDeclaration", "db/d37/classsema_1_1BoundFunctionDeclaration.html", null ],
@@ -43,6 +46,8 @@ var hierarchy =
       [ "zir::BoundIRGenerator", "d4/da0/classzir_1_1BoundIRGenerator.html", null ]
     ] ],
     [ "anonymous_namespace{lsp-main.cpp}::CallContext", "d1/dc2/structanonymous__namespace_02lsp-main_8cpp_03_1_1CallContext.html", null ],
+    [ "codegen::ClassArcEmitter", "d9/d1d/classcodegen_1_1ClassArcEmitter.html", null ],
+    [ "sema::Binder::ClassInfo", "d4/d52/structsema_1_1Binder_1_1ClassInfo.html", null ],
     [ "zap::Diagnostic", "df/d01/structzap_1_1Diagnostic.html", null ],
     [ "zap::DiagnosticEngine", "d3/d28/classzap_1_1DiagnosticEngine.html", null ],
     [ "zap::DiagnosticPosition", "d7/dc4/structzap_1_1DiagnosticPosition.html", null ],
@@ -100,6 +105,7 @@ var hierarchy =
         [ "FunCall", "dd/d86/classFunCall.html", null ],
         [ "IndexAccessNode", "d9/ddc/classIndexAccessNode.html", null ],
         [ "MemberAccessNode", "d9/dff/classMemberAccessNode.html", null ],
+        [ "NewExpr", "d9/d59/classNewExpr.html", null ],
         [ "StructLiteralNode", "de/d32/classStructLiteralNode.html", null ],
         [ "TernaryExpr", "d5/d02/classTernaryExpr.html", null ],
         [ "UnaryExpr", "dd/d97/classUnaryExpr.html", null ]
@@ -118,6 +124,7 @@ var hierarchy =
         [ "WhileNode", "d2/df8/classWhileNode.html", null ]
       ] ],
       [ "TopLevel", "d8/d65/classTopLevel.html", [
+        [ "ClassDecl", "d6/d7b/classClassDecl.html", null ],
         [ "ConstDecl", "d2/def/classConstDecl.html", null ],
         [ "EnumDecl", "d0/d96/classEnumDecl.html", null ],
         [ "ExtDecl", "d3/df9/classExtDecl.html", null ],
@@ -148,6 +155,7 @@ var hierarchy =
     [ "sema::Symbol", "d1/df6/classsema_1_1Symbol.html", [
       [ "sema::FunctionSymbol", "db/db1/classsema_1_1FunctionSymbol.html", null ],
       [ "sema::ModuleSymbol", "d3/d56/classsema_1_1ModuleSymbol.html", null ],
+      [ "sema::OverloadSetSymbol", "de/d14/classsema_1_1OverloadSetSymbol.html", null ],
       [ "sema::TypeSymbol", "d0/d06/classsema_1_1TypeSymbol.html", null ],
       [ "sema::VariableSymbol", "d8/d9a/classsema_1_1VariableSymbol.html", null ]
     ] ],
@@ -158,7 +166,9 @@ var hierarchy =
       [ "zir::EnumType", "df/dd7/classzir_1_1EnumType.html", null ],
       [ "zir::PointerType", "d4/d67/classzir_1_1PointerType.html", null ],
       [ "zir::PrimitiveType", "d0/d21/classzir_1_1PrimitiveType.html", null ],
-      [ "zir::RecordType", "da/de1/classzir_1_1RecordType.html", null ]
+      [ "zir::RecordType", "da/de1/classzir_1_1RecordType.html", [
+        [ "zir::ClassType", "dc/dae/classzir_1_1ClassType.html", null ]
+      ] ]
     ] ],
     [ "zir::Value", "da/d98/classzir_1_1Value.html", [
       [ "zir::Argument", "d3/d57/classzir_1_1Argument.html", null ],
@@ -169,5 +179,7 @@ var hierarchy =
       [ "sema::Binder", "dc/d2c/classsema_1_1Binder.html", null ]
     ] ],
     [ "anonymous_namespace{lsp-main.cpp}::Workspace", "df/dd6/classanonymous__namespace_02lsp-main_8cpp_03_1_1Workspace.html", null ],
+    [ "zap_arc_header_t", "d1/de8/structzap__arc__header__t.html", null ],
+    [ "zap_arc_metadata_t", "d4/d2c/structzap__arc__metadata__t.html", null ],
     [ "zap_string_t", "dd/d2a/structzap__string__t.html", null ]
 ];
